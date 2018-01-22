@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     xhr.addEventListener('error', function () {
-        content.innerHTML = "Nieprawidłowe dane";
+        content.innerHTML = "Incorrect data";
     });
 
     xhr.send(null);
