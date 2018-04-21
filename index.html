@@ -10,9 +10,15 @@
 
     <h1>Vat number validation using XMLHttpRequest to JSON file</h1>
     <div class="request-content">
-      <input id="country-code" type="text" name="countryCode">
-      <input id="vat-number" type="text" name="vatNumber">
-      <input id="check-button" type="submit" name="" value="Check">
+      <div class="request-content__item">
+        <p>Country code*</p>
+        <input id="country-code" type="text" name="countryCode">
+      </div>
+      <div class="request-content__item">
+        <p>Vat number*</p>
+        <input id="vat-number" type="text" name="vatNumber">
+      </div>
+      <input class="request-content__item" id="check-button" type="submit" name="" value="Check">
     </div>
     <div class="response-content">
     </div>

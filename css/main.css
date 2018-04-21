@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+.request-content, .response-content{
+    text-align: center;
+}
+.request-content{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 50px 0;
+}
+.request-content p{
+    font-weight: bold;
+}
+.response-content p{
+    color: red;
+}
+.request-content__item{
+    display: inline-block;
+    float: left;
+    padding-right: 10px;
+}

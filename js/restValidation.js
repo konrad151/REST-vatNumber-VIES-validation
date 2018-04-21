@@ -2,8 +2,8 @@
 document.addEventListener("DOMContentLoaded", function() {
   var checkButton = document.getElementById('check-button');
   checkButton.addEventListener("click", function(){
-    var countryCode; //CZ
-    var vatNumber; //7109194147
+    var countryCode;
+    var vatNumber;
     var countryCodeValue = document.getElementById('country-code').value;
     var vatNumberValue = document.getElementById('vat-number').value;
 
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
     xhr.addEventListener('error', function () {
-        content.innerHTML = "Nieprawidłowe dane";
+        content.innerHTML = "<p>Incorrect data</p>";
     });
 
     xhr.send(null);
